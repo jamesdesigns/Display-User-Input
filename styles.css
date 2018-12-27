@@ -8,6 +8,11 @@ body {
       font-size: 300%;
       color: #fff;
   }
+
+  p {
+      margin-top: -25px;
+      padding-bottom: 15px;
+  }
   
   .container {
     /* background-color: #fff; */
@@ -26,6 +31,10 @@ body {
   .msg {
       color: #383838;
       margin-left: 2%;
+  }
+
+  label {
+      padding-bottom: 15px;
   }
 
   input[type=button], input[type=submit], input[type=reset] {
