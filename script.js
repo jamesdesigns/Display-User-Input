@@ -10,6 +10,7 @@ var subjectInput = document.getElementById("subject");
 var messageBox  = document.getElementById("display");
 
 function insert() {
+ "use strict"; 
  firstNames.push( firstNameInput.value );
  lastNames.push( lastNameInput.value );
  email.push( emailInput.value ); 
@@ -18,6 +19,7 @@ function insert() {
 }
 
 function clearAndShow() {
+  "use strict";  
   firstNameInput.value = "";
   lastNameInput.value = "";
   emailInput.value = "";
@@ -25,7 +27,7 @@ function clearAndShow() {
 
   messageBox.innerHTML = "";
   messageBox.innerHTML = "<br>";
-  messageBox.innerHTML = "<h1>Hi " + firstNames + "!</h1><p>Thank you for reaching out to us.</p>" + "Your message has been received and we will contact you shortly.<br><br>";
+  messageBox.innerHTML = "<h1>Hi " + firstNames + "!</h1><p>Thank you for reaching out to us.</p>" + "<p class='clientMsg'>(Your message has been received and we will contact you shortly.)</p>";
   messageBox.innerHTML += "<span class='msg'>First Name: " + firstNames.join(", ") + "</span><br/>";
   messageBox.innerHTML += "<span class='msg'>Last Name: " + lastNames.join(", ") + "</span><br/>";
   messageBox.innerHTML += "<span class='msg'>Email: " + email.join(", ") + "</span></br>";
