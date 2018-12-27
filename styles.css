@@ -5,13 +5,15 @@ body {
   }
 
   h1 {
-      font-size: 300%;
+      font-size: 500%;
       color: #fff;
+      margin-bottom:-15px;
+      margin-top:-10px;
   }
 
   p {
-      margin-top: -25px;
       padding-bottom: 15px;
+      font-size: 200%;
   }
   
   .container {
@@ -33,12 +35,13 @@ body {
       margin-left: 2%;
   }
 
-  label {
-      padding-bottom: 15px;
+  .clientMsg {
+      margin-top: -25px;
   }
 
+
   input[type=button], input[type=submit], input[type=reset] {
-    background-color: #0099ff;
+    background-color: #505050;
     border: none;
     color: white;
     padding: 10px 26px;

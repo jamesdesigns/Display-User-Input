@@ -25,7 +25,7 @@ function clearAndShow() {
 
   messageBox.innerHTML = "";
   messageBox.innerHTML = "<br>";
-  messageBox.innerHTML = "<h2>Hi " + firstNames + "!</h2><p>Thank you for reaching out to us.</p>" + "Your message has been received and we will contact you shortly.<br>";
+  messageBox.innerHTML = "<h1>Hi " + firstNames + "!</h1><p>Thank you for reaching out to us.</p>" + "Your message has been received and we will contact you shortly.<br><br>";
   messageBox.innerHTML += "<span class='msg'>First Name: " + firstNames.join(", ") + "</span><br/>";
   messageBox.innerHTML += "<span class='msg'>Last Name: " + lastNames.join(", ") + "</span><br/>";
   messageBox.innerHTML += "<span class='msg'>Email: " + email.join(", ") + "</span></br>";
