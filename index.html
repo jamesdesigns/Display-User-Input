@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Displaying User Input</title>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <script src="script.js"></script>
+  </head>
+<body>
+ <div class="container"> 
+    <form>
+    <h1>Hello.</h1>
+    <p>We love our customers and want to hear from you.</p>
+
+    <label for="firstName">First Name:
+        <input id="firstName" type="text" required /></label><br>
+        <label for="lastName">Last Name:
+        <input id="lastName" type="text" required /></label><br>
+        <label for="email">Email:
+        <input id="email" type="text" required /></label><br><br>
+        <label for="subject">How can we help?<br>
+        <textarea id="subject" type="text" required></textarea></label><br><br>
+
+        <input type="button" value="Submit" onclick="insert()" />
+        <input type="reset" value="Reset">
+    </form>
+
+    <div id="display"></div>
+  </div>
+
+  <script src="script.js"></script>
+  </body>
+</html>
