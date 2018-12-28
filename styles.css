@@ -27,6 +27,7 @@ body {
   
   #display {
     padding: 0 5% 5% 5%;
+    background-color: #888888;
   }
 
   .msg {
@@ -42,11 +43,13 @@ body {
   }
 
   input {
-      padding: 15px 0;
-      width: 100%;
+      padding: 15px 0 15px 15px;
+      width: 98%;
       margin-bottom: 2%;
       border-radius: 5px;
+      background-color: ffffcc;
   }
+
 
   input[type=button], input[type=submit], input[type=reset] {
     background-color: #505050;
@@ -57,13 +60,15 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     font-size: 108%;
+    width: 100%;
   }
 
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   background-color: #33ccff;
   }
 
+
   textarea {
-      width: 100%;
+      width: 99.5%;
       height: 100px;
   }
