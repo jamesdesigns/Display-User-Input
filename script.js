@@ -11,10 +11,17 @@ var messageBox  = document.getElementById("display");
 
 function insert() {
  "use strict"; 
+//  var x = document.createElement("IMG");
+//  x.setAttribute("src", "scan-code.png");
+//  x.setAttribute("width", "330");
+//  x.setAttribute("height", "330");
+//  x.setAttribute("alt", "The Scan Code");
+
  firstNames.push( firstNameInput.value );
  lastNames.push( lastNameInput.value );
  email.push( emailInput.value ); 
  subject.push( subjectInput.value );
+//  document.body.appendChild(x);
  clearAndShow();
 }
 
@@ -32,5 +39,4 @@ function clearAndShow() {
   messageBox.innerHTML += "<span class='msg'>Last Name: " + lastNames.join(", ") + "</span><br/>";
   messageBox.innerHTML += "<span class='msg'>Email: " + email.join(", ") + "</span></br>";
   messageBox.innerHTML += "<span class='msg'>Message: " + subject.join(", ") + "</span>";
-  messageBox.innerHTML += "</div>";
 }
