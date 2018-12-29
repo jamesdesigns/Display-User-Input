@@ -55,6 +55,7 @@ body {
       margin-bottom: 2%;
       border-radius: 5px;
       background-color: ffffcc;
+      font-size: 105%;
   }
 
 
@@ -81,4 +82,5 @@ body {
   textarea {
       width: 99.5%;
       height: 100px;
+      font-size: 105%;
   }
