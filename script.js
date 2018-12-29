@@ -11,17 +11,10 @@ var messageBox  = document.getElementById("display");
 
 function insert() {
  "use strict"; 
-//  var x = document.createElement("IMG");
-//  x.setAttribute("src", "scan-code.png");
-//  x.setAttribute("width", "330");
-//  x.setAttribute("height", "330");
-//  x.setAttribute("alt", "The Scan Code");
-
  firstNames.push( firstNameInput.value );
  lastNames.push( lastNameInput.value );
  email.push( emailInput.value ); 
  subject.push( subjectInput.value );
-//  document.body.appendChild(x);
  clearAndShow();
 }
 
